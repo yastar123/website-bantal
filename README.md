@@ -16,7 +16,7 @@
 
 ## Tentang
 
-Selamat datang di Bantal Landing Page! Ini adalah proyek sederhana yang dibuat menggunakan HTML dan CSS untuk membuat halaman web menarik yang menampilkan produk bantal. Desainnya dioptimalkan untuk tampilan laptop agar terlihat maksimal, dengan fokus pada estetika yang menarik.
+Selamat datang ! Ini adalah proyek sederhana yang dibuat menggunakan HTML dan CSS untuk membuat halaman web menarik yang menampilkan produk bantal. Desainnya dioptimalkan untuk tampilan laptop agar terlihat maksimal, dengan fokus pada estetika yang menarik.
 
 ## Fitur
 
