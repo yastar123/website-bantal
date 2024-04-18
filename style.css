@@ -1,0 +1,604 @@
+:root {
+    --warna-ketiga : rgb(188, 207, 177);
+    --warna-kedua : #fff;
+    --warna-utama : rgba( 208, 227, 197);
+    --warna-keempat : rgb(168, 187, 157);
+}
+
+*,html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar start */
+.navbar {
+    background-color: var(--warna-kedua);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    justify-content: space-between;
+    border-top: 10px solid var(--warna-ketiga);
+}
+
+.navbar-1 h3 {
+    color: var(--warna-utama);
+}
+
+.navbar-2 {
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+}
+
+a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: var(--warna-ketiga);
+}
+
+a:hover {
+    transition: 0.5s;
+    color: black
+}
+
+/* navbar end */
+
+/* container start */
+.container, .bar {
+    position: relative; 
+    width: 100%;
+    height: 480px; 
+}
+
+.container img {
+    position: absolute; 
+    top: 60%; 
+    left: 40%; 
+    transform: translate(-50%, -50%); 
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.container-1, .bar-1 {
+    position: absolute;
+    height: 60%;
+    width: 30%;
+    top: 30%;
+    left: 58%;
+    padding-top: 80px;
+    padding-left: 25px;
+    color: var(--warna-kedua);
+    background-color: var(--warna-keempat);
+}
+
+.container-1 a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.container-2, .bar-2 {
+    height: 87vh;
+    width: 100%;
+}
+
+.container-2-1, .bar-2-1 {
+    width: 100%;
+    height: 50%;
+    background-color: var(--warna-ketiga);
+} 
+
+.container-2-2, .bar-2-2 {
+    width: 100%;
+    height: 50%;
+    background-color: var(--warna-utama);
+} 
+
+.container h1, .bar h1 {
+    font-weight: 100;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.container a, .bar a {
+    color: #fff;
+}
+
+/* container end */
+
+/* main start */
+.main {
+    height: 50%;
+    width: 100%;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.main-1  {
+    text-align: center;
+}
+
+.main-1 p {
+    font-weight: bold;
+    color: var(--warna-keempat);
+    margin-bottom: 20px;
+}
+
+.main-1 h2 {
+    margin: auto;
+    margin: 0 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/* main end */
+
+.section {
+    width: 100%;
+    height: 80vh;
+    padding: 70px;
+}
+
+.section-1 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+}
+
+.section-1-1 {
+    background-color: var(--warna-keempat);
+    margin-right: 10%;
+}
+
+.section-1-1 a{
+    font-style: italic;
+    color: var(--warna-kedua);
+    padding-left: 23px;
+}
+
+.section-1-1-1 a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.section-1-1-1 {
+    padding: 10px;
+}
+
+.section-1-1 img {
+    height: 75%;
+    width: 100%;
+}
+
+.section-1-1 h2,cite {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    color: var(--warna-kedua);
+    font-weight: bold;
+}
+
+/* bar start */
+
+.bar img {
+    position: absolute; 
+    top: 60%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); 
+    max-width: 100%;
+    max-height: 100%; 
+}
+
+.bar-1 {
+    position: absolute;
+    background-color:  rgba(255, 187, 244, 0.872);
+    height: 60%;
+    width: 30%;
+    top: 30%;
+    left: 20%;
+    padding-top: 80px;
+    padding-left: 25px;
+    color: var(--warna-kedua);
+}
+
+.bar-1 a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+/* bar end */
+
+/* section start */
+.section1 {
+    margin-top: 10%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2%;
+}
+
+
+.side-bar-1, .side-bar-4 {
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.side-bar-1 p, .side-bar-4 p {
+    font-size: 1.5em;
+    color: var(--warna-keempat);
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.side-bar-1 h1, .side-bar-4 h1 {
+    font-weight: 100;
+    color: var(--warna-keempat);
+    margin-top: 3%;
+}
+
+.side-bar-2, .side-bar-3 {
+    height: 100%;
+    width: 100%;
+    background-color: var(--warna-keempat);
+    padding: 15px;
+}
+
+.side-bar-2 img, .side-bar-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2%;
+}
+
+.side-bar-4 .button1 {
+    height: 15%;
+    width: 25%;
+    margin-top: 8%;
+    padding: 15px;
+    border-radius: 25% / 50%;
+    border: 1px solid var(--warna-ketiga);
+    color: var(--warna-ketiga);
+    background-color: var(--warna-kedua);
+}
+
+/* section end */
+
+/* content start */
+.content {
+    margin-top: 15%;
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.content-1, .content-2, .content-3 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.content-1 img, .content-2 img, .content-3 img {
+    width: 100%;
+    height: 350px;
+}
+
+.content-1 img:hover, .content-2 img:hover, .content-3 img:hover {
+    transform: scale(1.1);
+}
+
+.content-1 h2, .content-2 h2, .content-3 h2 {
+    margin-top: 6%;
+    font-weight: 100;
+}
+
+.content1 {
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+/* contact start*/
+.contact {
+    display: grid;
+    width: 100%;
+    height: 80vh;
+    background-color: var(--warna-keempat);
+    grid-template-columns: 30% 60%;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.contact-1 {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+
+.contact-1 p, .contact-1 address {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 5%;
+    color: var(--warna-kedua);
+}
+
+.contact-2 {
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+}
+
+.contact-2 p, .contact-2 address {
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 2%;
+    color: var(--warna-kedua);
+}
+
+.form {
+    height: 50px;
+    width: 270px;
+    margin-top: 3%;
+    margin-right: 3%;
+    border: solid 1px var(--warna-kedua);
+    background-color: var(--warna-ketiga);
+    color: var(--warna-kedua);
+    padding-left: 2%;
+}
+
+.form-1 {
+    height: 100px;
+    margin-top: 5%;
+    width: 89%;
+    border: 1px solid var(--warna-kedua);
+    background-color: var(--warna-ketiga);
+    color: var(--warna-kedua);
+    padding-left: 2%;
+}
+
+.form:focus, .form-1:focus {
+    border: 1px solid black;
+}
+
+form .button-1 {
+    margin-top: 5%;
+    padding: 17px;
+    width: 35%;
+    border: 1px solid var(--warna-kedua);
+    background-color: var(--warna-ketiga);
+    color: var(--warna-kedua);
+}
+/* contact end */
+
+/* button start */
+.button {
+    margin-top: 20px;
+    width: 10%;
+    padding: 15px;
+    border-radius: 25% / 50%;
+    border-color: var(--warna-keempat);
+    color: var(--warna-keempat);
+    background-color: var(--warna-kedua);
+}
+
+.button:hover, .button3:hover{
+    transition: 0.5s;
+    background-color: var(--warna-ketiga);
+    color: var(--warna-kedua);
+    border: 1px solid black;
+}
+
+.button1 {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 7%;
+}
+
+.button1 p {
+    font-weight: bold;
+    color: var(--warna-keempat);
+    margin-bottom: 1%;
+}
+
+.button1 h2 {
+    color: black;
+    margin-bottom: 1%;
+    font-weight: 100;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center; 
+    height: 80px;
+    width: 100%;
+}
+
+.button-1:hover {
+    color: black;
+    transition: 0.5s;
+    border: 1px solid black;
+    background-color: var(--warna-kedua);
+}
+
+.button2-1,
+.button2-2,
+.button2-3 {
+    margin: 0 0px;
+}
+
+.button2-1-1,
+.button2-1-1 {
+    height: 80%;
+    width: 50px;
+    border: 1px solid var(--warna-keempat);
+    background-color: var(--warna-kedua);
+    color: var(--warna-keempat);
+    padding-left: 3%;
+}
+
+.button2-1-1 {
+    width: 220px;
+}
+
+.button2-1-1[type="button"] {
+    background-color: var(--warna-ketiga);
+    color: var(--warna-kedua);
+    cursor: pointer;
+    border: 1px solid var(--warna-keempat) ;
+    width: 80px;
+    font-weight: 100;
+}
+
+.button3 {
+    margin-top: 5%;
+    height: 10%;
+    width: 30%;
+    border-radius: 25% / 50%;
+    border-color: var(--warna-keempat);
+    color: var(--warna-keempat);
+    background-color: var(--warna-kedua);
+}
+
+/* footer start */
+.footer {
+    margin-top: 8%;
+    background-color: var(--warna-keempat);
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns:30% 30% 30% ;
+}
+
+.footer-1, .footer-2, .footer-3 {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+}
+
+.footer-1-1 {
+    background-color: var(--warna-utama);
+    width: 35%;
+    height: 75%;
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+}
+
+footer p {
+    text-align: center;
+    color: var(--warna-kedua);
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.feather {
+    color: var(--warna-kedua);
+    height: 80%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 7%;
+}
+
+.footer1 {
+    background-color: var(--warna-ketiga);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.footer-4-1 {
+    padding: 25px;
+    margin-right: 7%;
+    margin-left: 3%;
+}
+
+.footer-4-2 li {
+    display: inline-block;
+}
+
+.footer-4-2 li a {
+    font-size: 20px;
+    color: var(--warna-kedua);
+}
+
+.footer-4-3 {
+    margin: auto;
+}
+
+.footer-4-4  {
+    height: 10vh;
+    padding-right: 5%;
+}
+
+.footer-4-4 .feather {
+    margin-top: 120%;
+    margin-right: 100%;
+    color: var(--warna-kedua);
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.footer2 {
+    background-color: var(--warna-ketiga);
+    padding: 10px;
+}
+
+.footer2 ul {
+    display: inline-block;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.footer2 ul li p {
+    font-size: 14px;
+}
+
+/* footer end */
+
+
+/* button end */
+
+
+
+
+
+
+
+
+/* Menambahkan aturan media queries untuk responsivitas */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Menata elemen menjadi satu kolom saat tampilan layar kecil */
+        text-align: center;
+    }
+
+    .navbar-3 ul li {
+        display: block; /* Menata tautan menu menjadi satu kolom saat tampilan layar kecil */
+        margin-bottom: 10px;
+    }
+}
